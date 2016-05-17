@@ -1,8 +1,11 @@
 #############################################################################
 
 export PS1='\[\033[00;32m\]\u\[\033[01;33m\]@\[\033[00;36m\]\h \[\033[00;33m\]\w\[\033[00;31m\]\$ \[\033[00m\]'
-export PATH=/usr/local/php5/bin:$PATH
 umask 022
+
+#############################################################################
+
+eval "`dircolors`"
 
 #############################################################################
 
@@ -22,8 +25,6 @@ alias gp='git push'
 alias gsm='git submodule update --init --recursive'
 alias wtr='curl -4 http://wttr.in/Gescher'
 alias vs='vagrant global-status'
-alias cloneterminal='open -a Terminal `pwd`'
-alias terminal='open -a Terminal ~'
 
 #############################################################################
 
@@ -33,7 +34,6 @@ export HISTFILESIZE=99999999
 export HISTSIZE=99999999
 export HISTCONTROL="ignoreboth"
 
-export CLICOLOR=1
-export LSCOLORS="gxfxcxdxbxegedabagacad"
+export LS_OPTIONS='--color=auto -h'
 
 #############################################################################
