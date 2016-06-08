@@ -24,6 +24,7 @@ alias wtr='curl -4 http://wttr.in/Gescher'
 alias vs='vagrant global-status'
 alias cloneterminal='open -a Terminal `pwd`'
 alias terminal='open -a Terminal ~'
+alias showsshconfig='cat ~/.ssh/config'
 
 #############################################################################
 
