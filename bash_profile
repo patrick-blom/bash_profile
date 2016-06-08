@@ -25,6 +25,7 @@ alias gp='git push'
 alias gsm='git submodule update --init --recursive'
 alias wtr='curl -4 http://wttr.in/Gescher'
 alias vs='vagrant global-status'
+alias showsshconfig='cat ~/.ssh/config'
 
 #############################################################################
 
