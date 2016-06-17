@@ -26,6 +26,7 @@ alias cloneterminal='open -a Terminal `pwd`'
 alias terminal='open -a Terminal ~'
 alias showsshconfig='cat ~/.ssh/config'
 alias week='date +"%V"'
+alias gethash='date|md5'
 
 #############################################################################
 
